@@ -1,0 +1,63 @@
+#a1{
+	color:red;
+	font-size:12px;
+}
+
+#a2{
+	color:green;
+	font-size:18px;
+}
+
+#a3{
+	color:blue;
+	font-size:24px;
+}
+
+div{
+	color:rgba(255,0,0,0.5);
+}
+
+.Animal{
+	color:#FFCE45;
+	background-color:grey;
+	border: 2px solid black;
+	margin:10px;
+}
+
+.Human{
+	color:#4C8BF5;
+	background-color:grey;
+	border: 2px solid black;
+}
+
+.o{
+	color:red;
+}
+
+.z{
+	color:green;
+}
+
+.n{
+	color:blue;
+}
+
+#tx{
+	background-color:grey;
+	border: 2px solid black;
+}
+
+.Animal:hover{
+	border: 10px solid black;
+}
+
+#test{
+	background-color:#4E8DF5;
+	color:#ffffff;
+	padding:15px;
+	margin:15px;
+	border:7px solid red;
+}
+body{
+	background-image: url(images/123.jpg);
+}

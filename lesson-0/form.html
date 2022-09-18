@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>FormData</title>
+		<meta charset="UTF-8"/> 
+		<link href="style2.css" rel="stylesheet" type="text/css"/>
+	</head>
+
+	<body>
+		<form action="formdata.php" method="POST" name="Form1">
+			<fieldset >
+			<legend>Личная информация</legend>
+			<text>ФИО:  </text><input type="text" size="40" maxlength="40"/><br/>
+			<text id="tx1">Email: </text><input type="text" size="40" maxlength="40"/><br/>
+			</fieldset>
+			<fieldset>
+			<legend>Сообщение</legend>
+			<text  id="tx2">Тема: </text><input type="text" size="50"  maxlength="50"/><br/>
+			<label>Сообщение: </label><br/>
+			<textarea cols="50" rows="10"></textarea>
+			</fieldset>
+			<fieldset>
+			<legend>Вопросы</legend>
+			<p>Вы программист?</p>
+			<label>Да<input type="radio" value="yes" name="r1" checked/></label>
+			<label>Нет<input type="radio" value="no" name="r1"/></label>
+			<p>Выберите язык(-и), которые вы знаете:</p>
+			<label><input type="checkbox" name="213" >Assembler</label><br/>
+			<label><input type="checkbox" name="213" >Visual Basic</label><br/>
+			<label><input type="checkbox" name="213" >Pascal</label><br/>
+			<label><input type="checkbox" name="213" >C</label><br/>
+			<label><input type="checkbox" name="213" >C++</label><br/>
+			<label><input type="checkbox" name="213" >C#</label><br/>
+			<label><input type="checkbox" name="213" >F#</label><br/>
+			<label><input type="checkbox" name="213" >Java</label><br/>
+			<label><input type="checkbox" name="213" >HTML</label><br/>
+			<label><input type="checkbox" name="213" >CSS</label><br/>
+			<label><input type="checkbox" name="213" >PHP</label><br/>
+			<label><input type="checkbox" name="213" >JavaScript</label><br/>
+			<label><input type="checkbox" name="213" >Python</label><br/>
+			<label><input type="checkbox" name="213" >Lua</label><br/>
+			<label><input type="checkbox" name="213" >Ruby</label><br/>
+			<label><input type="checkbox" name="213" >SQL</label><br/>
+			<label><input type="checkbox" name="213" >Perl</label><br/>
+			<label><input type="checkbox" name="213" >XSLT</label><br/>
+			<label><input type="checkbox" name="213" >JSP</label><br/>
+			<label><input type="checkbox" name="213" >Ada</label><br/>
+			<label><input type="checkbox" name="213" >Fortran</label><br/>
+			<label><input type="checkbox" name="213" >LISP</label><br/>
+			<label><input type="checkbox" name="213" >Prolog</label><br/>
+			<label><input type="checkbox" name="213" >Scheme</label><br/>
+			<label><input type="checkbox" name="213" >ML</label><br/>
+			<label><input type="checkbox" name="213" >Smalltalk</label><br/>
+			<p><input type="submit" name="s1"></p>
+			<p><input type="reset" name="s1"></p>
+			<select name="STRANA" >
+				<option>Россия</option>
+				<option>США</option>
+				<option>Германия</option>
+				<option>Испания</option>
+				<option>Франция</option>
+				<option>Канада</option>
+				<option>Финляндия</option>
+				<option>Турция</option>
+				<option>Польша</option>
+				<option>Англия</option>
+				<option>Арбские эмираты</option>
+				<option>Индия</option>
+				<option>Китай</option>
+				<option>Япония</option>
+			</select>
+			</fieldset>
+			
+		</form>
+		
+	</body>
+	
+</html>
